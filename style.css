@@ -1,5 +1,40 @@
-body{
+.top{
     background-color: white; 
-    color: solid blue; 
-    border: 3px solid red; 
+    color: black; 
+    border: 3px solid red;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h1{
+    background-color: aqua;
+    border: 2px solid black;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+a{
+    color: blue;
+    font-size: 20px;
+    font-family: monospace, Verdana;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    
+}
+
+#v{
+    border: 2px solid black;
+}
+#lorem{
+    border: 2px soild yellow;
 }
